@@ -42,7 +42,7 @@
 				</div>
 
 				<div class="left-column">
-					<img id="profile_pic" src="images/DSC_0008.jpg">
+					<img id="profile_pic" src="images/DSC_0008.jpeg">
 					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
 
 					<div id="theme-options-wrapper">
@@ -62,8 +62,9 @@
 							<div id="corner-tl" class="corner"></div>
 							<div id="corner-tr" class="corner"></div>
 							<h3>What I Do</h3>
-							<p>I was a functional consultant, now 
-								I bring specific expertise to the design, instruction, or operations of technical solutions.
+							<p>
+								I'm a software engineer with 5 years of experience building enterprise level application.
+								Mostly I used java, spring, spring boot to develope restful api with microservice architecture.
 							</p>
 							<div id="corner-br" class="corner"></div>
 							<div id="corner-bl" class="corner"></div>
@@ -79,13 +80,26 @@
 
 			<div class="about-wrapper">
 				<div class="about-me">
-					<h4>More about me</h4>
+					<h4>AWS</h4>
 
-					<p>
+					<!-- <p>
 						I am always working on new projects to upgrade my skills, stay on top of industry trends and continuously enhance my knowledge.
 					</p>
 
-					<p> I like to learn new Technologies and share them.</p>
+					<p> I like to learn new Technologies and share them.</p> -->
+
+					<p>
+						 What is elastic container service ?
+						image ...
+Amazon Elastic Container Service (ECS) is a highly scalable, fully managed container orchestration service provided by Amazon Web Services (AWS). ECS allows you to easily run and manage Docker containers on a cluster of Amazon EC2 instances.
+
+With ECS, you can easily deploy, manage, and scale containerized applications on AWS. ECS automates the deployment and scaling of your containers, handles application load balancing, and provides robust monitoring and logging capabilities. It supports both Fargate and EC2 launch types, giving you the flexibility to choose the right computing environment for your containers.
+
+ECS also integrates with other AWS services, such as Elastic Load Balancing, Amazon Elastic File System, and Amazon Elastic Container Registry, allowing you to build highly scalable and resilient container-based applications on AWS.
+
+Overall, Amazon ECS is a powerful and flexible tool for deploying and managing containerized applications on AWS, and is an excellent choice for organizations looking to leverage the benefits of containerization without the complexities of managing their own container orchestration infrastructure.
+
+					</p>
 
 
 					<hr>
@@ -97,7 +111,7 @@
 					<div id="skills">
 						<ul>
 							<li>Python</li>
-							<li>Django</li>
+							<li>Spring Boot</li>
 							<li>Flask</li>
 							<li>Express</li>
 							<li>JavaScript</li>
@@ -206,16 +220,16 @@
 				<a name="contact"></a>
 
 				<label>Name</label>
-				<input class="input-field" type="text" name="name">
+				<input class="input-field" type="text" name="name" required>
 
 				<label>Subject</label>
-				<input class="input-field" type="text" name="subject">
+				<input class="input-field" type="text" name="subject" required>
 
 				<label>Email</label>
-				<input class="input-field" type="text" name="email">
+				<input class="input-field" type="text" name="email" required>
 
 				<label>Message</label>
-				<textarea class="input-field" name="message"></textarea>
+				<textarea class="input-field" name="message" readonly></textarea>
 
 				<input id="submit-btn" type="submit" value="Send">
 			</form>
