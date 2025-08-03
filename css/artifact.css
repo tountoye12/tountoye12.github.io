@@ -68,3 +68,77 @@ code {
 h1 {
   animation: slideInFromRight 5.5s ease-out;
 }
+
+
+.artifact-block {
+  background-color: #2d203a;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid #3a2f4a;
+}
+
+.artifact-block h2 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.artifact-block p,
+.artifact-block ul {
+  color: #dddddd;
+}
+
+.artifact-block:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease;
+}
+.artifact-block {
+  border-left: 5px solid #66d9ef;
+}
+
+
+.artifact-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.artifact-block {
+  background-color: #2d203a;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid #3a2f4a;
+  flex: 1 1 48%; /* Allows responsive 2-column layout */
+  box-sizing: border-box;
+  min-width: 300px; /* Prevents them from getting too narrow */
+}
+
+.artifact-block h2 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.artifact-block p,
+.artifact-block ul {
+  color: #dddddd;
+}
+
+@media (max-width: 768px) {
+  .artifact-block {
+    flex: 1 1 100%;
+  }
+}
+
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #66d9ef; /* Optional: Change color on hover */
+}
+
