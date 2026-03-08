@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI Model Development</title>
+    <link rel="stylesheet" href="css/artifact-ml.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Artifact: Machine Learning Algorithms Visual Framework</h1>
+
+<div class="section">
+
+<p>
+This artifact presents a visual framework of common machine learning algorithms categorized into 
+supervised and unsupervised learning methods. The purpose of this artifact is to organize key 
+machine learning models and demonstrate how they are applied in real-world domains such as 
+tabular data, computer vision, natural language processing (NLP), and generative AI.
+</p>
+
+</div>
+
+
+<div class="section">
+
+<h2>Algorithms Included</h2>
+
+<ul>
+<li>Linear Regression</li>
+<li>Logistic Regression</li>
+<li>Decision Tree</li>
+<li>Random Forest</li>
+<li>Support Vector Machine</li>
+<li>Neural Networks</li>
+<li>K-Means Clustering</li>
+<li>Hierarchical Clustering</li>
+<li>DBSCAN</li>
+<li>Principal Component Analysis (PCA)</li>
+</ul>
+
+</div>
+
+
+<div class="infographic">
+
+<img 
+    src="images/ml-algorithms-framework.png"
+    alt="Machine Learning Algorithms Framework"
+    class="zoomable"
+    onclick="openModal(this)"
+>
+
+</div>
+
+<!-- Modal for zoom -->
+
+<div id="imageModal" class="modal" onclick="closeModal()">
+    <img class="modal-content" id="modalImage">
+</div>
+
+
+<div class="section">
+
+<h2>Key Learning Takeaways</h2>
+
+<ul>
+<li>Understanding the difference between supervised and unsupervised learning.</li>
+<li>Recognizing when regression vs classification models should be used.</li>
+<li>Exploring clustering algorithms for pattern discovery in unlabeled data.</li>
+<li>Connecting machine learning models to real-world domains like NLP and computer vision.</li>
+</ul>
+
+</div>
+
+
+<a class="back-link" href="index.html">← Back to Portfolio</a>
+
+</div>
+
+<script>
+
+function openModal(img) {
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("modalImage");
+
+    modal.style.display = "block";
+    modalImg.src = img.src;
+}
+
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
+
+</script>
+
+</body>
+
+</html>

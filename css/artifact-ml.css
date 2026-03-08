@@ -1,0 +1,119 @@
+/* Page Background */
+
+body {
+    background-color: #1b2a38;
+    color: #e6edf3;
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* Center Container */
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+}
+
+
+/* Main Title */
+
+h1 {
+    color: #58a6ff;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+
+/* Section Titles */
+
+h2 {
+    color: #79c0ff;
+    margin-bottom: 15px;
+}
+
+
+/* Section Card */
+
+.section {
+    background: #233548;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+
+/* Lists */
+
+ul {
+    margin-left: 25px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+
+/* Infographic */
+
+.infographic img {
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 1px solid #2c3e50;
+    transition: transform 0.3s ease;
+}
+
+.infographic img:hover {
+    transform: scale(1.02);
+}
+
+
+/* Back Link */
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #4ea1ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Zoomable Image */
+
+.zoomable {
+    cursor: zoom-in;
+}
+
+/* Modal Background */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+/* Zoomed Image */
+
+.modal-content {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+}
