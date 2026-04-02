@@ -1,0 +1,115 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #1e293b, #3b82f6);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #cbd5f5;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* CARD */
+.card {
+    background: #1e293b;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* HEADINGS */
+h2 {
+    margin-bottom: 10px;
+    color: #60a5fa;
+}
+
+/* SKILLS GRID */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.skill {
+    background: #334155;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* PROJECT */
+.project {
+    margin-bottom: 15px;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+/* CTA */
+.highlight {
+    background: #3b82f6;
+    color: white;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    background: white;
+    color: #3b82f6;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.buttons a:hover {
+    background: #e2e8f0;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+}
