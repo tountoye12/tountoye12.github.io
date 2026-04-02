@@ -117,3 +117,97 @@ li {
     max-height: 90%;
     border-radius: 8px;
 }
+
+/* CENTER WHOLE PAGE */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* CENTER SECTIONS */
+.hero,
+.artifact,
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* CENTER TEXT CONTENT */
+.hero p,
+.content p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* CENTER LIST */
+.content ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left; /* keeps bullets clean */
+}
+
+/* CENTER IMAGE */
+.artifact-img {
+    display: block;
+    margin: 20px auto;
+
+    width: 80%;
+    max-width: 600px;   /* controls width */
+
+    max-height: 500px;  /* controls height */
+    object-fit: contain; /* keeps proportions clean */
+
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* OPTIONAL: NICE SPACING */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* IMAGE BASE */
+.artifact-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* ZOOMABLE BEHAVIOR */
+.zoomable {
+    cursor: zoom-in;
+}
+
+/* MODAL */
+.zoom-modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+/* SHOW MODAL */
+.zoom-modal.active {
+    display: flex;
+}
+
+/* MODAL IMAGE */
+.zoom-modal img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    cursor: zoom-out;
+}

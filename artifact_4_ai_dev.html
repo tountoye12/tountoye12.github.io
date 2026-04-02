@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explainable AI Artifact</title>
+    <link rel="stylesheet" href="./css/artifact-ml.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<section class="hero">
+    <h1>Artifact: Explainable AI & Model Trust</h1>
+    <p>
+        This artifact explores the importance of Explainable AI (XAI) in modern machine learning systems.
+        It highlights challenges in model transparency, validation techniques, and performance metrics
+        used to ensure reliability and trust.
+    </p>
+</section>
+
+<!-- IMAGE SECTION -->
+<section class="artifact">
+    <h2>Explainable AI Infographic</h2>
+
+    <img src="images/explainable-ai.png" 
+         alt="Explainable AI Infographic" 
+         class="artifact-img"
+         onclick="openModal()">
+
+    <!-- MODAL -->
+    <div id="imgModal" class="modal" onclick="closeModal()">
+        <img class="modal-content zoomable" id="modalImg">
+    </div>
+</section>
+
+<!-- CONTENT SECTION -->
+<section class="content">
+    <h2>Overview</h2>
+    <p>
+        Explainable AI (XAI) focuses on making AI systems transparent and understandable.
+        Models such as GPT, Claude, Gemini, and LLaMA are powerful but often operate as black boxes,
+        making it difficult to interpret how decisions are made. This creates challenges in trust,
+        accountability, and ethical AI use.
+    </p>
+
+    <h2>Key Challenges</h2>
+    <ul>
+        <li>High model complexity with billions of parameters</li>
+        <li>Opaque decision-making processes</li>
+        <li>Trade-off between accuracy and interpretability</li>
+        <li>Regulatory requirements for transparency</li>
+    </ul>
+
+    <h2>Validation & Metrics</h2>
+    <p>
+        AI systems are evaluated using performance metrics such as accuracy, precision, recall,
+        and fairness indicators. Validation techniques like cross-validation, human evaluation,
+        and adversarial testing ensure robustness and reliability.
+    </p>
+
+    <h2>Conclusion</h2>
+    <p>
+        Explainability, validation, and performance metrics work together to build trust in AI systems.
+        As AI continues to evolve, these elements are essential for responsible and effective deployment.
+    </p>
+</section>
+
+
+<!-- BACK LINK -->
+    <a class="back-link" href="ai_dev_home_page.html">← Back to Artifacts</a>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 My Mamadou Diallo</p>
+    </footer>
+
+</body>
+</html>
